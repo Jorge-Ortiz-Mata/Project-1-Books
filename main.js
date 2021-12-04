@@ -1,5 +1,3 @@
-let nombre_2 = prompt("Ingresa tu nombre");
-alert ("Mucho gusto: " + nombre_2);
 
 let num_4 = 15;
 num_4 = num_4 + 5;
