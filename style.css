@@ -1,0 +1,501 @@
+body
+{
+    color: rgb(212, 255, 216);
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #000000;
+}
+
+*
+{
+    padding: 1px;
+    margin: 1px;
+}
+
+.main-sections
+{
+    border: 1px solid rgb(187, 13, 13);
+    margin: 1px;
+    padding: 1px;
+}
+
+.main-sections-2
+{
+    padding: 1px;
+    background-image: url("./Images_3/books-less.jpg");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+}
+        
+.main-sections-2 div
+{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-sections-2 .yorch-b
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-sections-2 .texts
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title-2
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.url-2
+{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.description-2
+{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.yorch-b
+{
+    text-align: center;
+    color: white;
+}
+
+.main-sections-3
+{   
+    height: 400px;
+}
+
+.main-sections-3 .texts
+{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: left;
+    margin-top: 170px;
+}
+
+.main-sections-4
+{
+    margin: 1px;
+    padding: 1px;
+}
+
+.secundary-sections
+{
+    border: 4px solid rgb(255, 97, 97);
+    margin: 10px;
+    padding: 10px;
+}
+
+h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+h3
+{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2px;
+}
+
+.user-center
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 800;
+}
+
+#description-title
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#description-url
+{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.listas
+{
+    font-weight: 600;
+    text-align: left;
+}
+
+.texts
+{
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 12px;
+    padding: 10px;
+}
+
+.texts strong
+{
+    font-weight: 700;
+    border: 0;
+}
+
+.conteiner
+{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.conteiner .box-menu
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner .box-menu a
+{
+    color: rgb(234, 255, 234);
+    padding: 2px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.conteiner div
+{
+    flex: 1;
+    padding: 1px;
+    align-items: center;
+}
+
+.conteiner .one 
+{
+    flex: 1 1 0%;
+    margin-right: 180px;
+}
+
+.conteiner .two 
+{
+    flex: 1 1 0%;
+    margin-left: 180px;
+}
+
+.conteiner-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-2 div
+{
+    flex: 1;
+}
+
+.conteiner-2 .one-2 
+{
+    flex: 0 1 0%;
+}
+
+.conteiner-2 .two-2 
+{
+    flex: 2 1 0%;
+    width: 100px;
+}
+
+.main-sections-4 .conteiner-3
+{
+    display: flex;
+}
+
+.main-sections-4 .conteiner-3 div
+{
+    flex: 1;
+    border: 2px solid #ffffff;
+    margin: 5px;
+    padding: 20px;
+}
+
+.conteiner-3 div .h3-title
+{
+    border: 0px solid #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-3 div .images-books
+{
+    border: 0px solid #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-3 div .texts
+{
+    border: 0px solid #ffffff;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-3 div .show-more 
+{
+    border: 0px solid #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-3 div .show-more a
+{
+    color: rgb(234, 255, 234);
+    font-size: 15px;
+}
+
+/*-------- Botón ir a post.------*/
+
+.conteiner-3 div .go-button
+{
+    border: 0px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.conteiner-3 div .go-button div
+{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 10px;  
+}   
+
+.conteiner-3 div .go-button div a
+{
+    color: rgb(2, 56, 26);
+    font-weight: 700;
+}
+
+/*----------------------------------------------------- Menú de la sección Social Media.------------------------------------------------*/
+.social-media
+{
+    margin-top: 50px;;
+    height: 500px;
+    background-image: url("./Images_3/social.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    display: flex;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.conteiner-4
+{
+    flex: 1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.conteiner-4 .one-4
+{
+    margin-top: 110px;
+    flex: 1 0 0%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.conteiner-4 .two-4
+{
+    flex: 1 0 0%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+
+.conteiner-4 .text-4
+{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.conteiner-4 .text-5
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.conteiner-4 .icons
+{
+    display: flex;
+}
+
+.conteiner-4 .icons div
+{
+    flex: 1;
+    text-align: center;
+    padding: 2px;
+}
+
+.icons div .facebook
+{
+    flex: 1 0 0%;
+}
+
+.icons div .whatsapp
+{
+    flex: 1 0 0%;
+}
+
+.icons div .maps
+{
+    flex: 1 0 0%;
+}
+
+/*-------------------------------------------------------Menú de la sección Footer.-----s-----------------------------------------------------*/
+
+footer
+{
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer_pages
+{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    justify-content: center;
+}
+
+.footer_pages div
+{
+    margin-top: 15px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer_pages div a
+{
+    margin-top: 500px;
+    font-weight: 700;
+    font-size: 14px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer .user_footer
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*--------------------------------------------POST: PADRE RICO PADRE POBRE.-----------------------------------------------------*/
+
+/*----------------------------Título y fotografía----------------------*/
+.post-conteiner
+{
+    height: 500px;
+}
+
+.post-conteiner .post-title
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.post-conteiner .post-image
+{
+    text-align: center;
+}
+
+/*------------------------Descripción del post-------------------------*/
+
+.post-conteiner-text
+{
+    padding: 100px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+/*----------------------Botón de regresar----------------------------*/
+
+.back-button
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.back-button div
+{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 640px;
+    margin-right: 640px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.back-button div a
+{
+    color: rgb(7, 153, 73);
+}
