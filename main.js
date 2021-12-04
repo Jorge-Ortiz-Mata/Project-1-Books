@@ -1,18 +1,4 @@
 
-let num_4 = 15;
-num_4 = num_4 + 5;
-
-document.write(num_4);
-
-let texto_1 = "Hola";
-let texto_2 = " Jorge";
-
-texto_t = texto_1 + texto_2;
-
-document.write(texto_t);
-
-
-
 /* ------------------------------ Practica 1. Mostrar mensaje en la consola del navegador. --------------------------------------- */
 
 console.log('Hola a todos');
